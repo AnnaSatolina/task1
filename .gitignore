@@ -1,6 +1,33 @@
 # Prerequisites
 *.d
 
+# Игнорировать скомпилированные файлы
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+
+# Игнорировать папки сборки
+build/
+bin/
+obj/
+
+# Игнорировать файлы IDE (например, Visual Studio, CLion)
+.vs/
+.idea/
+*.sln
+*.vcxproj*
+*.user
+CMakeCache.txt
+CMakeFiles/
+Makefile
+
+# Игнорировать временные файлы
+*.tmp
+*.swp
+*.log
 # Compiled Object files
 *.slo
 *.lo
