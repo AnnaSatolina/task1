@@ -65,6 +65,7 @@ Makefile
 *.a
 *.so
 *.dll
+*.pdb
 
 # Игнорировать папки сборки
 build/
