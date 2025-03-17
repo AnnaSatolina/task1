@@ -7,6 +7,16 @@ int main(){
 
   std::string str1(std::move(str));
   std::cout << str <<std::endl << str1;
+<<<<<<< HEAD
+=======
+  int x = 5;
+  int&& y = std::move(x);
+
+  int&& z = 6;
+  y = 7;
+
+  int&& t = static_cast<int&&>(x);
+>>>>>>> addBranch
   return 0;
 }
   
