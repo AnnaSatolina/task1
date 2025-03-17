@@ -1,5 +1,4 @@
-#pragma once
-<<<<<<< HEAD
-=======
+#ifndef ADD_H
+#define ADD_H
 int add(int, int);
->>>>>>> addBranch
+#endif
